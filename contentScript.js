@@ -48,7 +48,7 @@
 			const bookmarkButton = document.createElement("img");
 			bookmarkButton.src = chrome.runtime.getURL("assets/bookmark.png");
 			bookmarkButton.title = "Click to bookmark";
-			bookmarkButton.style.width = "70%";
+			bookmarkButton.style.width = "50%";
 			bookmarkButton.style.aspectRatio = "1/1";
 
 			buttonBox.appendChild(bookmarkButton);
